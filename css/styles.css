@@ -16,13 +16,18 @@ body {
   margin-right: auto;
   width: 50%;
 }
-.navButton {
-  margin: 5px;
+
+a.navButton{
+  padding: 15px;
+  font-size: 16px;
+  color: #fcf2ca;
+padding-top: 0px;
+  -webkit-transition: color 0.5s;
+        transition: color 0.5s;
 }
 
-th, td {
-  padding: 15px;
-  color: #fcf2ca;
+a:hover {
+  color: white;
 }
 
 
