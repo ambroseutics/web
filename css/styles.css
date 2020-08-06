@@ -1,5 +1,20 @@
 body {
   background-color: #135466;
+  background-image: linear-gradient(#135466, #043645);
+}
+
+#header {
+  padding: 50px 10px;
+  text-align: center;
+background-color: #135466;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .center {
@@ -44,6 +59,7 @@ table {
   font-family: 'Dancing Script', cursive;
   margin-left: auto;
 }
+
 
 .button {
   display: inline-block;
