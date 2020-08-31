@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tailblockscss.css">
   </head>
   <body>
 
@@ -40,10 +41,10 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Stories</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+	        	<li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
 	          <!-- <li class="nav-item cta"><a href="reservation.html" class="nav-link">Book a table</a></li> -->
 	        </ul>
 	      </div>
@@ -55,8 +56,7 @@
       <div class="slider-item js-fullheight" style="background-image: url(res/bg100.jpg);">
       	<div class="overlay"></div>
         <div class="container">
-          <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
-
+          <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="false">
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
             	<span class="subheading">Ambroseutics Deli</span>
               <h1 class="mb-4">Nutritious &amp; Tasty</h1>
@@ -117,7 +117,7 @@
     </section>
 
 
-		<section class="ftco-section ftco-wrap-about">
+		<section id="about" class="ftco-section ftco-wrap-about">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7 d-flex">
@@ -222,12 +222,8 @@
 		                <div class="one-half">
 		                  <h3>Baguette</h3>
 		                </div>
-		                <div class="one-forth">
-		                  <span class="price">$29</span>
-		                </div>
 		              </div>
 		              <p><span>Olive Oil</span>, <span>Balsamic</span>, <span>Sea Salt</span></p>
-		              <p><a href="#" class="btn btn-primary">Order now</a></p>
 	              </div>
               </div>
             </div>
@@ -387,14 +383,16 @@
       </div>
     </section>
 
-		<section class="ftco-section bg-light">
+
+
+		<section id="blog" class="ftco-section bg-light">
 			<div class="container">
-				<div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Blog</span>
-            <h2 class="mb-4">Recent Posts</h2>
+          <div class="row justify-content-center mb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span class="subheading">Blog</span>
+              <br>
+            </div>
           </div>
-        </div>
 				<div class="row">
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
@@ -452,72 +450,65 @@
 		</section>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Feliciano</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
+      <div id="contact" class="container">
+          <section class="text-gray-700 body-font relative">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+        </div>
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 w-1/2">
+              <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Name" type="text">
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Open Hours</h2>
-              <ul class="list-unstyled open-hours">
-                <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
-                <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
-                <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
-                <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
-                <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
-                <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
-                <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
-              </ul>
+            <div class="p-2 w-1/2">
+              <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email">
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Instagram</h2>
-              <div class="thumb d-sm-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(res/ig100.png);">
-	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
-	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
-	            	</a>
-	            </div>
-	            <div class="thumb d-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
-	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
-	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
-	            	</a>
-	            </div>
+            <div class="p-2 w-full">
+              <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message"></textarea>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Newsletter</h2>
-            	<p>Far far away, behind the word mountains, far from the countries.</p>
-              <form action="#" class="subscribe-form">
-                <div class="form-group">
-                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                  <input type="submit" value="Subscribe" class="form-control submit px-3">
-                </div>
-              </form>
+            <div class="p-2 w-full">
+              <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
             </div>
-          </div>
+            <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+              <a class="text-indigo-500">example@email.com</a>
+              <p class="leading-normal my-5">49 Smith St.
+                <br>Saint Cloud, MN 56301
+              </p>
+              <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-4 text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-4 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-4 text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+        </div>
+      </div>
+    </section>
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved ambroseutics.deli</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
