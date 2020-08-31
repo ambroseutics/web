@@ -52142,7 +52142,7 @@ video {
 	}
 	.lg\:text-indigo-500 {
 		--text-opacity: 1;
-		color: #667eea;
+		color: #c7a77c;
 		color: rgba(102, 126, 234, var(--text-opacity))
 	}
 	.lg\:text-indigo-600 {
@@ -64726,6 +64726,7 @@ video {
 	}
 	.xl\:fill-current {
 		fill: currentColor
+
 	}
 	.xl\:stroke-current {
 		stroke: currentColor
